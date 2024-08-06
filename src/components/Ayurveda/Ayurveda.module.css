@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* banner_2 */
+.banner_2 {
+    padding-top: 3.5rem;
+    padding-bottom: 1.5rem;
+    background-color: #F6F6F6;
+}
+
+.banner_2_child {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.banner_2_child p {
+    font-size: 1.8rem;
+
+}
+
+.banner_2_child button {
+    background-color: #FF6F61;
+    border: none;
+    padding: .5rem 1rem .5rem 1rem;
+    border-radius: .5rem;
+    font-weight: 700;
+    color: white;
+}
+
+/* Carousel */
+
+.child {
+    width: 95%;
+    margin: auto;
+    margin-top: 2.5rem;
+
+}
+
+.Carousel {
+    border-top: 2px solid #E0E0E0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.carousel_item {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    width: 90%;
+    border-bottom: 1px solid #E8E8E8;
+    margin-bottom: 2.5rem;
+}
+
+.carousel_item:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.carousel_item img {
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    object-fit: cover;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.carousel_item img+p {
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.carousel_item img+p+p {
+
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* texts */
+/* body {
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+    padding: 0;
+} */
+
+.container {
+    /* max-width: 800px; */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    border-bottom: 2px solid #e0e0e0;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.header h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.header h2 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.header p {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    color: #666666;
+    font-weight: 600;
+}
+
+.content .section {
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.content p {
+    font-size: 1.3em;
+    color: #666666;
+    font-weight: 600;
+    margin-bottom: 20px;
+}

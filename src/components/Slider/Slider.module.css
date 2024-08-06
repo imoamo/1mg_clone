@@ -1,0 +1,54 @@
+/* Slider.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.main {
+    display: flex;
+    align-items: flex-start; /* Align items to the start to accommodate the dots */
+    max-width: 100%;
+    padding: 0;
+}
+
+.carouselWrapper {
+    flex: 1;
+    position: relative; /* Relative positioning to position the dots correctly */
+    height: 28vh; /* Adjust as necessary */
+    overflow: hidden;
+}
+
+.carouselWrapper .carousel .control-dots {
+    position: absolute;
+    bottom: 0; /* Position dots at the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1; /* Ensure dots are above images */
+}
+
+.carouselWrapper img {
+    width: 100%; /* Ensures the image fills the width */
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the container */
+}
+
+.fixed_image {
+    flex: 0 0 30%;
+    height: 28vh; /* Same height as the carousel */
+    margin-left: 0;
+    overflow: hidden; /* Prevent overflow of content */
+}
+
+.fixed_image img {
+    width: 100%;
+    height: 100%;
+ /* Maintain aspect ratio while covering the area */
+}

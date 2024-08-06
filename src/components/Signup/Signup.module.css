@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.background {
+  background-image: url('../images/wall_2.jpg'); /* Set background image */
+  background-size: cover; /* Ensure image covers the entire background */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.5); /* Light, semi-transparent white */
+  backdrop-filter: blur(5px); /* Subtle blur effect */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px; /* Subtle shadow */
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 2.6rem;
+  font-weight: lighter;
+  cursor: pointer;
+  color: #ffffff; /* White text */
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  color: #f0f0f0; /* Slightly lighter white */
+}
+
+.parent {
+  width: 35%;
+  margin: auto;
+  margin-top: 7rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.3); /* More transparent white */
+  backdrop-filter: blur(10px); /* More pronounced blur */
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px; /* Pronounced shadow */
+}
+
+.child {
+  width: 100%;
+  margin: auto;
+}
+
+.child_1 {
+  display: flex;
+  justify-content: center;
+}
+
+.child img {
+  margin-top: 4rem;
+  width: 50%;
+}
+
+.child h3 {
+  margin-top: 2rem;
+  margin-bottom: 2.3rem;
+  font-size: 2.6rem;
+  font-weight: lighter;
+  color: #ffffff; /* White text */
+}
+
+form {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5); /* Semi-transparent white border */
+  padding-bottom: 2rem;
+}
+
+form label {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+  font-weight: 500;
+}
+
+.input {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.8); /* Semi-transparent white border */
+  font-size: 1.4rem;
+  color: #ffffff; /* White text */
+  background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent black */
+}
+
+.input:focus {
+  outline: none;
+  color: #ffffff;
+}
+
+.btn_1 {
+  margin-top: 2rem;
+  cursor: pointer;
+  background-color: rgba(0, 123, 255, 0.7); /* Transparent blue */
+  color: white;
+  border: none;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.btn_1:hover {
+  background-color: rgba(0, 123, 255, 0.9); /* Less transparent blue */
+}
+
+.child a {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #ffffff; /* White text */
+  text-decoration: none;
+}
+
+.anchor {
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+
+@media (max-width: 1100px) {
+  .parent {
+    width: 55%;
+    margin-top: 11rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .parent {
+    width: 75%;
+  }
+
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 486px) {
+  .parent {
+    width: 80%;
+  }
+
+  html {
+    font-size: 50%;
+  }
+}
