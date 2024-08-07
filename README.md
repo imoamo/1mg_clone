@@ -7,7 +7,8 @@ Welcome to **Tata 1mg Clone**, a full-stack e-commerce application designed to r
 ![Cart Page](https://github.com/user-attachments/assets/329c2077-12e6-48c0-872b-15b0e028e232)
 ![Checkout](https://github.com/user-attachments/assets/705174ef-54d9-4a4f-b954-34a01d43a1bb)
 ![User Profile](https://github.com/user-attachments/assets/2d2f13cd-f2a9-4e49-8c2b-3d24d0f4f2d2)
-![Order Summary](https://github.com/user-attachments/assets/e11da9ae-fb31-440c-94cb-fad4c6094dc1)
+![Order Summary](https://github.com/user-attachments/assets/5d9b7073-713a-43e0-be74-c40560ee6ea9)
+
 
 ## 🚀 Features
 
